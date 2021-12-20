@@ -1,0 +1,46 @@
+/*setting the page to have the same background and font family*/
+body{
+  font-family: 'Clarkson',Helvetica,sans-serif;
+  background: rgba(73, 114, 86, 0.39);
+}
+/*formatting for main part of page*/
+header {
+  text-align: center;
+  background: rgba(54, 85, 64, 0.39);
+  margin: 0px;
+  padding: 1px;
+}
+
+header h1{
+  font-size: 40px;
+}
+
+header h3{
+  font-size: 15px;
+}
+
+main{
+  margin: 30px;
+}
+
+hr{
+  border: none;
+  height: 1px;
+  background-color: black ;
+}
+
+/*formatting for footer*/
+footer h2{
+  text-align: center;
+  margin: 30px;
+}
+
+footer p, ol{
+  margin: 30px;
+}
+
+/*styling for links*/
+a:link    { color: blue;}
+a:visited { color: red;}
+a:hover   { color: rgb(126, 126, 255);}
+a:active  { color: greenyellow;}
